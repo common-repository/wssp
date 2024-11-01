@@ -1,0 +1,103 @@
+#wssp_control {
+    -moz-border-radius-topleft:8px;
+    -moz-border-radius-topright:8px;
+    -webkit-border-top-left-radius:8px;
+    -webkit-border-top-right-radius:8px;
+    border-radius-topleft:8px;
+    border-radius-topright:8px;
+    background: url("images/control.png") repeat-x scroll 0 0 transparent;
+    position: fixed;
+    background-color: gray;
+    bottom: 0px;
+    right: 10px;
+    height: 1.5em;
+    vertical-align: middle;
+    padding: 3px 10px 0px 10px;
+    text-align:center;
+    font-size: 12px;
+}
+#wssp_control a {
+    color: #FFF;
+}
+/* common */
+.wssp_msg{
+    color: black;
+    -moz-border-radius:5px; /* FF1+ */
+    -webkit-border-radius: 5px; /* Saf3+, Chrome */
+    border-radius: 5px; /* Opera 10.5, IE 9 */
+    background:#f1f1f1; padding:0.25em 0.25em 0.25em 0.25em;
+    border: 1px solid #adadad;
+    -moz-box-shadow: 2px 2px 4px #ccc; /* FF3.5+ */
+    -webkit-box-shadow: 2px 2px 4px #ccc; /* Saf3.0+, Chrome */
+    box-shadow: 2px 2px 4px #ccc; /* Opera 10.5, IE 9.0 */
+
+}
+.wssp_msg p {
+    padding: 0px;
+    margin: 0px;
+    color: #ac550f;
+}
+.wssp_msgbox {
+    max-width: 250px;
+    width: 250px;
+    position:relative;
+}
+.wssp_ukagaka {
+    position: fixed;
+    margin:0 20px;
+    font-size: 12px;
+    width:1px;
+}
+.wssp_shell{
+    cursor: pointer;
+    position: relative;
+}
+/* right */
+#wssp_ukagaka_right {
+    right: 0;
+    bottom: 1.5em;
+}
+#wssp_shell_right {
+    float: right;
+}
+#wssp_msgbox_right {
+    top: -10px;
+    right: 350px;
+}
+#wssp_msgbox_bottom_right {
+    background: url("images/msg-bottom-r.png") no-repeat scroll right transparent;
+    height:5px;
+    margin:-1px 6px 0;
+}
+/* left */
+#wssp_ukagaka_left {
+    left: 0px;
+    bottom: 0px;
+}
+#wssp_shell_left {
+    float: left;
+}
+#wssp_msgbox_left {
+    top: -10px;
+    left: 100px;
+}
+#wssp_msgbox_bottom_left {
+    background: url("images/msg-bottom-l.png") no-repeat scroll left transparent;
+    height:5px;
+    margin:-1px 6px 0;
+}
+/* Menu */
+ul.wssp_cmdlist{}
+li.wssp_cmdlist_item{
+    text-align:left;
+    list-style-image:url(images/cmd_item.png);
+    list-style-type:square;
+    margin:0 0 0 16px;
+}
+li.wssp_cmdlist_item a{
+    text-decoration:none;
+}
+li.wssp_cmdlist_item a:hover{
+    color: #8B4513;
+    text-decoration:none;
+}
